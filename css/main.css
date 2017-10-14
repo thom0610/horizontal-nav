@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
-  font-family: "Bevan", sans-serif;
   line-height: 1.5;
   color: #fff;
 }
@@ -9,12 +7,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 header {
-    background-color: #79756f;
-    text-align: center;
+  background-color: #79756f;
+  text-align: center;
+  border-top: 2.5px solid #595652;
+  border-bottom: 2.5px solid #595652;
 }
+
+body {
+  background-color: #dbd6cf;
+  margin: .5em;
+}
+
 h1 {
-  font-family: "PT Sans", sans-serif;
+  font-family: Bevan, cursive;
   background-color: #79756f;
   text-align: center;
   margin: 1em;
@@ -25,18 +32,22 @@ a:hover {
 }
 
 nav ul {
+  font-family: "PT Sans", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 5px;
 
   list-style-type: none;
 }
 
 nav li {
-  display: inline;
+  font-family: "PT Sans", sans-serif;
+  display: inline-block;
+  background-color: #713837;
+  border-radius: 10px;
+  padding: 1em;
 }
 
 nav a {
-  display: inline-block;
   color: #fff;
   text-decoration: none;
   text-align: center;
